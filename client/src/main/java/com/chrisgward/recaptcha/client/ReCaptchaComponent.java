@@ -40,7 +40,7 @@ public class ReCaptchaComponent extends JComponent {
 			e.printStackTrace();
 			expression = null;
 		}
-		Tidy tidy = new Tidy();
+		tidy = new Tidy();
 		tidy.setQuiet(true);
 		tidy.setShowErrors(0);
 		tidy.setShowWarnings(false);
